@@ -43,9 +43,16 @@ input[type="submit"] {
     background-color: #45a049;
 }
 
-
-
-
 br {
     clear: both;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjusted margin for the radio buttons */
+.gender input {
+    margin-right: 5px;
 }
